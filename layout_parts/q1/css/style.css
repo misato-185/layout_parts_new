@@ -15,10 +15,24 @@
   box-sizing: border-box;
 }
 
+.q1_content_box:first-child{
+  margin-left: 0;  
+}
+
 .q1_content_box{
   background-color: #3274ae;
   width: 230px;
   float: left;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.q1_content_text{
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
+  padding: 20px;
 }
 
 

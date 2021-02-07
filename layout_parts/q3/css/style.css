@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3_box{
+  width: 100%;
+  table-layout: fixed;
+  border: solid #dedede 1px;
+}
+
+.q3_box th{
+  padding: 10px;
+  background-color: #2244aa;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 26px;
+  border-bottom: solid #dedede 1px;
+}
+
+.q3_box th:not(:first-child){
+  border-left: solid #dedede 1px;
+}
+
+.q3_box td{
+  padding: 10px;
+  color: #000000;
+  font-size: 16px;
+  line-height: 22px;
+  border-top: solid #dedede 1px;
+  border-left: solid #dedede 1px;
+}
+
+.q3_box tr:last-child{
+  border-top: dashed #000 2px;
+}
+
+.q3_box tr:nth-child(odd){
+  background-color: #ecf1f2;
+}
 
 /* 回答はここに書いてね */

@@ -1,5 +1,58 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q4_haco{
+  padding: 20px;
+  background-color: #ecf1f2;
+}
+
+.q4_box{
+  display: table;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.q4_box:first-child{
+  margin-top: 0;
+}
+
+.q4_b{
+  display: table-cell;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+
+
+.q4_b.is-sango{
+  background-color: #fdc8b8;
+  width: 100px;
+}
+
+.q4_b.is-ayame{
+  background-color: #e0abd9;
+}
+
+.q4_b.is-sora{
+  background-color: #b6d8ed;
+  width: 100px;
+}
+
+.q4_b.is-kaki{
+  background-color: #e5d32e;
+}
+
+.q4_b.is-momo{
+  background-color: #ec8f9a;
+}
+
+.q4_b.is-midori{
+  background-color: #8fdcad;
+  width: 500px;
+}
+
+
 
 /* 回答はここに書いてね */

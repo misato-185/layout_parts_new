@@ -27,6 +27,7 @@
   line-height: 22px;
   border-top: solid #dedede 1px;
   border-left: solid #dedede 1px;
+  text-align: center;
 }
 
 .q3_box tr:last-child{

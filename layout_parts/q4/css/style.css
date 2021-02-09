@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q4_haco{
+.q4_table{
   padding: 20px;
   background-color: #ecf1f2;
 }
@@ -17,35 +17,35 @@
   margin-top: 0;
 }
 
-.q4_b{
+.q4_cell{
   display: table-cell;
   box-sizing: border-box;
   padding: 20px;
 }
 
-.q4_b.is-sango{
+.q4_cell.is-sango{
   background-color: #fdc8b8;
   width: 100px;
 }
 
-.q4_b.is-ayame{
+.q4_cell.is-ayame{
   background-color: #e0abd9;
 }
 
-.q4_b.is-sora{
+.q4_cell.is-sora{
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.q4_b.is-kaki{
+.q4_cell.is-kaki{
   background-color: #e5d32e;
 }
 
-.q4_b.is-momo{
+.q4_cell.is-momo{
   background-color: #ec8f9a;
 }
 
-.q4_b.is-midori{
+.q4_cell.is-midori{
   background-color: #8fdcad;
   width: 500px;
 }

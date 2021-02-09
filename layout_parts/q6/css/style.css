@@ -12,13 +12,16 @@
   text-align: center;
 }
 
-.q6__box_textal{
+.q6__box_cell{
   display: inline-block;
 }
 
 .q6__box.is-margin{
-  margin: 0 auto;
   text-align: center;
+}
+
+.q6__box_text{
+  margin: auto;
 }
 
 
@@ -54,11 +57,13 @@
 }
 
 
-.q6__box.is-stable{
+
+
+.q6--position .q6__box{
   position: relative;
 }
 
-.q6__box__inner{
+.q6__box.is-stable .q6__box__inner{
   position: absolute;
   top: 0;
   bottom: 0;
@@ -67,17 +72,13 @@
   margin: auto;
 }
 
-.q6__box.is-flexible{
-  position: relative;
-}
 
-.q6__box__inner{
+.q6__box.is-flexible .q6__box__inner{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: 10px;
 }
 
 /* 回答はここに書いてね */

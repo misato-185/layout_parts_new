@@ -16,12 +16,12 @@
 
   .q2_img_left{
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
   }
 
   .q2_img_right{
     float: right;
-    padding-left: 20px;
+    margin-left: 20px;
   }
 
 .q2_img{

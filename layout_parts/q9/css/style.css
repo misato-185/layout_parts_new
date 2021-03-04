@@ -12,7 +12,7 @@
 .q9_box::before{
   position: absolute;
   content: "";
-  bottom: -35px;
+  bottom: -40px;
   left: 10%;
   border: 20px solid transparent;
   border-top: 20px solid #222;
@@ -20,8 +20,8 @@
 .q9_box::after{
   position: absolute;
   content: "";
-  bottom: -40px;
-  left: 10%;
+  bottom: -39px;
+  left: 9%;
   border: 25px solid transparent;
   border-top: 25px solid #fff;
 }

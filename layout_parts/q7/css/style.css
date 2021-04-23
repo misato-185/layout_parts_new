@@ -65,8 +65,12 @@
 }
 
 .q7--flex .q7__box{
+  width: 225px;
   font-size: 16px;
   box-sizing: border-box;
+}
+.q7--flex .q7__box:last-child{
+  margin-left: 10px;
 }
 
 

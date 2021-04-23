@@ -30,7 +30,7 @@
   text-align: center;
 }
 
-.q3_box tr:last-child{
+.q3_box tfoot tr{
   border-top: dashed #000 2px;
 }
 

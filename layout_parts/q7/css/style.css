@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q7__inner.clearfix::after{
+.q7__inner_box.clearfix::after{
   display: block;
   content: "";
   clear: both;

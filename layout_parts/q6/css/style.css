@@ -8,7 +8,7 @@
   padding: 10px;
 }
 
-.q6__box.is-textalign{
+.q6__box_top.is-textalign{
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
   display: inline-block;
 }
 
-.q6__box.is-margin{
+.q6__box_top.is-margin{
   text-align: center;
 }
 
@@ -28,7 +28,7 @@
 
 
 
-.q6.q6--around.is-table{
+.is-table{
   display: table;
 }
 
@@ -45,7 +45,7 @@
 }
 
 
-.q6.q6--around.is-flex{
+.is-flex{
   display: flex;
   align-items: center;
   justify-content: center;
